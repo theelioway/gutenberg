@@ -1,0 +1,17 @@
+.cache
+.env
+.env.fish
+.private
+*.csv
+build
+develop-eggs
+dist
+eggs
+node_modules
+lib
+lib64
+parts
+sdist
+temp.db
+var
+venv*

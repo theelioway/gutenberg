@@ -1,0 +1,32 @@
+{
+  "alternateName": "Im-press-ive, the elioWay",
+  "description": "Download and read Gutenberg's Public Domain books, the elioWay.",
+  "disambiguatingDescription": "the book of knowledge fair presented with a universal blank, the elioWay",
+  "identifier": "gutenberg",
+  "mainEntityOfPage": "Book",
+  "name": "gutenberg",
+  "sameAs": "https://en.wikipedia.org/wiki/Johannes_Gutenberg",
+  "subjectOf": "Way",
+  "url": "https://gutenberg.Book.theElioWay.com",
+  "WebPage": {
+    "breadcrumb": [
+      "theelioway",
+      "gutenberg"
+    ]
+  },
+  "private": true,
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  },
+  "homepage": "https://gutenberg.Documentation.theElioWay.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theelioway/gutenberg"
+  },
+  "scripts": {
+    "test": "mocha",
+    "prettier": "prettier --write \"**/*.{css,html,js,json,md,mjs,scss,ts,yaml}\" \"!package.json\""
+  },
+  "type": "module"
+}
